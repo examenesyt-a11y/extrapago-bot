@@ -16,7 +16,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
 // Pega aquí el token que te dio BotFather en Telegram
-const BOT_TOKEN = process.env.BOT_TOKEN || 'TU_TOKEN_DE_TELEGRAM_AQUI';
+const BOT_TOKEN = process.env.BOT_TOKEN || '8968584111:AAFnr4sK1icKhFAsRDhCOfSsE_p4IwwV6wE';
 const ADMIN_CHAT_ID = '8372996446';
 
 const bot = new Telegraf(BOT_TOKEN);
